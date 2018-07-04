@@ -1,379 +1,319 @@
 /*Styles for all*/
-
-
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
+  max-width: 100%;
+  overflow-x: hidden; }
 
 body {
-    margin: 0;
-    padding: 0;
-    
-}
+  margin: 0;
+  padding: 0; }
 
 * {
-    font-family: sans-serif;
-    text-align: center; 
-}
-  
-a:visited {color:blue;} 
+  font-family: sans-serif;
+  text-align: center; }
+
+a:visited {
+  color: blue; }
 
 p.title {
-    font-size: 1.5em; 
-    padding: 10px; 
-    border: none; 
-    box-shadow: none; 
-    background: -webkit-linear-gradient(top, #878787, #000);
-    background: linear-gradient(bottom, #2c0b0b, rgb(211, 181, 211), rgb(116, 55, 80));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold;
-}
-
+  font-size: 1.5em;
+  padding: 10px;
+  border: none;
+  box-shadow: none;
+  background: -webkit-linear-gradient(top, #878787, #000);
+  background: linear-gradient(bottom, #2c0b0b, #d3b5d3, #743750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold; }
 
 h1 {
-    color: white; 
-    text-align: center; 
-}
+  color: white;
+  text-align: center; }
 
 #WhyHireMe {
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-    width: 100%; 
-    height: 75px; 
-    display: flex;
-    flex-direction: column; 
-    align-content: center; 
-    justify-content: center; 
-    margin-bottom: -10px; 
-}
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: -10px; }
 
 #About {
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-    width: 100%; 
-    height: 75px; 
-    display: flex;
-    flex-direction: column; 
-    align-content: center; 
-    justify-content: center; 
-    margin-top: -30px; 
-    margin-bottom: -10px; 
-}
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: -10px; }
 
 #EducationAndExperience {
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-    width: 100%; 
-    height: 100px; 
-    display: flex;
-    flex-direction: column; 
-    align-content: center; 
-    justify-content: center; 
-    margin-top: -10px; 
-    margin-bottom: -10px; 
-}
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: -10px; }
 
 ul {
-    word-wrap: break-word;
-    color: white; 
-}
+  word-wrap: break-word;
+  color: white; }
 
 button {
-    border-radius: 5px;
-    width: 100%; 
-    color: white; 
-    height: 50px;  
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-}
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  height: 50px;
+  background: linear-gradient(#084c63, #7c7cc2); }
 
 button:hover {
-    background: linear-gradient( rgb(14, 121, 156), rgb(141, 141, 194));
-}
+  background: linear-gradient(#0e799c, #8d8dc2); }
 
 .popIn {
-    filter: grayscale(100%);
-    z-index: 10;
-    background-color: 'white';
-    align-content: 'center';
-    justify-content: 'center';
-    text-align: 'center';
-    margin-left: 'auto';
-    margin-right: 'auto';
-    top: '50%';  /* position the top  edge of the element at the middle of the parent */
-    left: '50%'; /* position the left edge of the element at the middle of the parent */
-   /* transform: 'translate(-50%, -50%)',*/
-}
+  filter: grayscale(100%);
+  z-index: 10;
+  background-color: 'white';
+  align-content: 'center';
+  justify-content: 'center';
+  text-align: 'center';
+  margin-left: 'auto';
+  margin-right: 'auto';
+  top: '50%';
+  /* position the top  edge of the element at the middle of the parent */
+  left: '50%';
+  /* position the left edge of the element at the middle of the parent */
+  /* transform: 'translate(-50%, -50%)',*/ }
 
-header {  
-    display: flex; 
-    border-radius: 14px 14px 0px 0px;
-    background-image: url('../Resources/Images/youtube-channel-art-banner-final-version-maybe.jpg');
-    justify-content: center;
-    align-items: center;
-    grid-area: header;
-    right: 0;
-    left: 0;
-}
+header {
+  display: flex;
+  border-radius: 14px 14px 0px 0px;
+  background-image: url("../Resources/Images/youtube-channel-art-banner-final-version-maybe.jpg");
+  justify-content: center;
+  align-items: center;
+  grid-area: header;
+  right: 0;
+  left: 0; }
 
 main {
-    display: flex; 
-    flex-direction: column; 
-    
-
-    align-items: center; 
-    grid-area: main;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: main;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
 
 nav {
-    display: flex; 
-    flex-direction: row; 
-    align-content: center; 
-    justify-content: center; 
-    bottom: 0; 
-    width: 100%; 
-    text-align: center; 
-    position: fixed;
-    background: radial-gradient( rgb(53, 71, 78), rgb(22, 22, 44));
-    right: 0;
-    left: 0;
-    padding: 2px;
-}
-
-
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  background: radial-gradient(#35474e, #16162c);
+  right: 0;
+  left: 0;
+  padding: 2px; }
 
 p.nav {
-    font-size: 1em;  
-    margin: 2%; 
-    display: inline-block;
-    width: 100%;
-}
+  font-size: 1em;
+  margin: 2%;
+  display: inline-block;
+  width: 100%; }
 
 footer {
-    background-color:lightgray; 
-    grid-area: footer;
-    border-radius: 0px 0px 10px 10px;
-    width: 100%;
-    position: relative; 
-    margin-top: -20px; 
-}
-
+  background-color: lightgray;
+  grid-area: footer;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  position: relative;
+  margin-top: -20px; }
 
 p {
-    font-family: sans-serif;
-    text-align: center;
-    color: white; 
-    font-size: 1.2em; 
-    
-    width: 95%; 
-}
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  width: 95%; }
 
 p.experience {
-    height: 40px;
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-    margin: 0; 
-    border-radius: 20px; 
-    margin-left: 5%; 
-    margin-right: 5%; 
-   
-}
+  height: 40px;
+  background: linear-gradient(#084c63, #7c7cc2);
+  margin: 0;
+  border-radius: 20px;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 p.experience:hover {
-    background: linear-gradient( rgb(14, 121, 156), rgb(141, 141, 194));
-}
+  background: linear-gradient(#0e799c, #8d8dc2); }
 
 .textBody {
-    border: 1px solid #000;
-    padding: 4px;
-    margin: 40px 40px; 
-}
-
+  border: 1px solid #000;
+  padding: 4px;
+  margin: 40px 40px; }
 
 li {
-    font-family: sans-serif;
-    font-size: 1.3em; 
-    padding: 5px; 
-    margin-right: 5px; 
-}
+  font-family: sans-serif;
+  font-size: 1.3em;
+  padding: 5px;
+  margin-right: 5px; }
 
 div.Landing {
-    display: flex; 
-    flex-direction: column; 
-    width: 100%;
-    /*background: linear-gradient( rgba(1, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../Resources/Images/fall-suit-instagram.jpg');*/
-   
-    background-position: center;
-    background-repeat: no-repeat;
-   background-size: cover; 
-   justify-items: center; 
-   align-items: center;
-   align-content: center; 
-}
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*background: linear-gradient( rgba(1, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../Resources/Images/fall-suit-instagram.jpg');*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-items: center;
+  align-items: center;
+  align-content: center; }
 
 div.about {
-    width: 100%;
-    height: 1000px; 
-    background: linear-gradient( rgba(1, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../Resources/Images/sitting-on-a-bus.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-
+  width: 100%;
+  height: 1000px;
+  background: linear-gradient(rgba(1, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../Resources/Images/sitting-on-a-bus.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 div.WhyHireMe {
-   display: flex; 
-   flex-direction: column; 
-   justify-content: center;  
-   justify-items: center; 
-   align-items: center; 
-   background: linear-gradient( rgba(1, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url(https://i.pinimg.com/originals/f8/fb/a2/f8fba21c09ca08ab3cd3c09671e322e0.jpg);
-    background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   width: 100%; 
-   height: 1000px; 
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(rgba(1, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/f8/fb/a2/f8fba21c09ca08ab3cd3c09671e322e0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px; }
 
 div.experience {
-    width: 100%;
-    background-image: url('http://www.host2post.com/images/UPwq-hnLLx5N0M~/1920x1200/download/background-simple-beautiful-blue-wallpaper-wallpapers.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
+  width: 100%;
+  background-image: url("http://www.host2post.com/images/UPwq-hnLLx5N0M~/1920x1200/download/background-simple-beautiful-blue-wallpaper-wallpapers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
 
 img.picture {
-    border-radius: 14px;
-    box-shadow: 0px 80px white;
-}
+  border-radius: 14px;
+  box-shadow: 0px 80px white; }
 
 img.profilePic {
-     width: '50%';
-      height: '50%';
-}
+  width: '50%';
+  height: '50%'; }
 
 div.multiplier {
-    display: flex;
-    flex-direction: row;
-
-}
+  display: flex;
+  flex-direction: row; }
 
 .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 80px;
-}
-  
-.App-title {
-    font-size: 1.5em;
-    animation-name: colorChange; 
-    animation-duration: 5s;
-    animation-iteration-count: infinite; 
-   animation-fill-mode: forwards; 
-}
-  
-  @keyframes colorChange {
-    0%   {color:rgb(196, 85, 104); }
-    25%  {color:yellow; }
-    50%  {color:blue; }
-    75%  {color:green; }
-    100% {color:red; }
-}
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
 
-  .App-intro {
-    font-size: large;
-  }
-  
-  @keyframes App-logo-spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  
-}
+.App-title {
+  font-size: 1.5em;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes colorChange {
+  0% {
+    color: #c45568; }
+  25% {
+    color: yellow; }
+  50% {
+    color: blue; }
+  75% {
+    color: green; }
+  100% {
+    color: red; } }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 .backgroundVideo {
-    position: absolute; 
-     width: 100%; 
-     height: 800px;
-     z-index: -1;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     background-attachment: fixed;
-     overflow: hidden; 
-     object-fit: cover;
- }
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  object-fit: cover; }
 
 /* For Computers (Design for Mobile-first): */
 @media only screen and (min-width: 768px) {
-
-img.profilePic {
+  img.profilePic {
     width: '30%';
-     height: '30%';
-}
-
-#WhyHireMe {
-    background: linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194));
-    width: 100%; 
-    height: 75px; 
+    height: '30%'; }
+  #WhyHireMe {
+    background: linear-gradient(#084c63, #7c7cc2);
+    width: 100%;
+    height: 75px;
     display: flex;
-    flex-direction: column; 
-    align-content: center; 
-    justify-content: center; 
-    margin-top: -10px; 
-    margin-bottom: -10px; 
-}
-
-header {  
-    display: flex; 
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: -10px;
+    margin-bottom: -10px; }
+  header {
+    display: flex;
     border-radius: 14px 14px 0px 0px;
-    background-image: url('../Resources/Images/youtube-channel-art-banner-final-version-maybe.jpg');
+    background-image: url("../Resources/Images/youtube-channel-art-banner-final-version-maybe.jpg");
     align-items: center;
-    grid-area: header;
-}
-
-main {
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    grid-area: main;
-}
-
-footer {
-    background-color:lightgray; 
+    grid-area: header; }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: main; }
+  footer {
+    background-color: lightgray;
     grid-area: footer;
-    border-radius: 0px 0px 10px 10px;
-}
-
-p.textBody {
+    border-radius: 0px 0px 10px 10px; }
+  p.textBody {
     border: 1px solid #000;
     padding: 4px;
-    margin: 40px 40px; 
-}
-
-
-.backgroundVideo { 
-     width: 100%; 
-     height: 150%;
-     height: 1200px; 
-     min-height: 100%;
-     object-fit: cover;
- }
-
- p.title {
+    margin: 40px 40px; }
+  .backgroundVideo {
+    width: 100%;
+    height: 150%;
+    height: 1200px;
+    min-height: 100%;
+    object-fit: cover; }
+  p.title {
     background: -webkit-linear-gradient(top, #878787, #000);
-    background: linear-gradient(bottom, #2c0b0b, rgb(211, 181, 211), rgb(116, 55, 80));
+    background: linear-gradient(bottom, #2c0b0b, #d3b5d3, #743750);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    font-size: 4em; 
-}
-/*
+    font-size: 4em; }
+  /*
 div.boxAnimation {
     background-color: red; 
     position: relative;
@@ -390,13 +330,7 @@ div.boxAnimation {
     75%  {background-color:green; left:0px; top:200px;}
     100% {background-color:red; left:0px; top:0px;}
 }
-*/
-}
-
-
-
-
-
+*/ }
 
 /* iPads (portrait and landscape) ----------- */
 /*
@@ -459,24 +393,4 @@ div.boxAnimation {
         border-radius: 0px 0px 10px 10px;
     }
 }*/
-
-
-
-
-
-
-
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (max-width : 480px) {
-
-
-
-
-
-}
-
-
-
-
-
-
