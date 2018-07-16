@@ -1,8 +1,11 @@
-const renderReducer = (state = {
-    color: "blue",
+
+const initialState = {
+    color: "yellow",
    display: "none",
    language: 'English',
-}, action, event) => {
+}
+
+const renderReducer = (state = initialState, action, event) => {
     
     switch (action.type) {
         case 'CHANGE_COLOR':

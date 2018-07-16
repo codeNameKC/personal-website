@@ -1,0 +1,335 @@
+/*Scss*/
+#WhyHireMe, #About, #Education, #ExperienceAndSkills, p, p.experience, p.textBody, div.Landing, div.WhyHireMe, main {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center; }
+
+/*Styles for all*/
+html {
+  max-width: 100%;
+  overflow-x: hidden; }
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0; }
+
+* {
+  font-family: sans-serif;
+  text-align: center; }
+
+a:visited {
+  color: #2f2fc7; }
+
+#WhyHireMe {
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 75px; }
+
+#About {
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 75px; }
+
+#Education {
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%;
+  height: 100px; }
+
+#ExperienceAndSkills {
+  background: linear-gradient(#084c63, #7c7cc2);
+  width: 100%; }
+
+ul {
+  word-wrap: break-word;
+  color: white; }
+
+button {
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  height: 50px;
+  background: linear-gradient(#084c63, #7c7cc2); }
+  button:hover {
+    filter: brightness(110%); }
+
+.popIn {
+  filter: grayscale(100%);
+  z-index: 10;
+  background-color: 'white';
+  align-content: 'center';
+  justify-content: 'center';
+  text-align: 'center';
+  margin-left: 'auto';
+  margin-right: 'auto';
+  top: '50%';
+  /* position the top  edge of the element at the middle of the parent */
+  left: '50%';
+  /* position the left edge of the element at the middle of the parent */
+  /* transform: 'translate(-50%, -50%)',*/ }
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #000;
+  right: 0;
+  left: 0; }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  text-justify: center;
+  position: fixed;
+  background: radial-gradient(#35474e, #16162c);
+  right: 0;
+  left: 0;
+  padding: 2px;
+  z-index: 2; }
+
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  width: 90%; }
+  p.experience {
+    height: 40px;
+    background: linear-gradient(#084c63, #7c7cc2);
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 5%; }
+    p.experience:hover {
+      filter: brightness(110%); }
+  p.textBody {
+    border: 1px solid #000;
+    padding: 4px;
+    margin: 40px 40px;
+    margin-left: 5%;
+    margin-right: 5%; }
+
+.textBody {
+  border: 1px solid #000;
+  padding: 4px; }
+
+li {
+  font-size: 1.3em;
+  padding: 5px; }
+
+div.Landing {
+  width: 100%;
+  /*background: linear-gradient( rgba(1, 0, 0, 0), rgba(0, 0, 0, 0) ), url('../Resources/Images/fall-suit-instagram.jpg');*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+div.about {
+  background: linear-gradient(rgba(1, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+  width: 100%;
+  background-image: url("Resources/Images/pink-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: none; }
+
+div.WhyHireMe {
+  background: linear-gradient(rgba(1, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/f8/fb/a2/f8fba21c09ca08ab3cd3c09671e322e0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+
+div.Education {
+  width: 100%;
+  background-image: url("http://www.host2post.com/images/UPwq-hnLLx5N0M~/1920x1200/download/background-simple-beautiful-blue-wallpaper-wallpapers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+div.ExperienceAndSkills {
+  width: 100%;
+  background-image: url("Resources/Images/triangles-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+main {
+  background: linear-gradient(rgba(1, 0, 1, 0.2), rgba(0, 0, 0, 0.2)), url("Resources/Images/shimmering-particles.jpg");
+  width: 100%;
+  background-image: url("Resources/Images/shimmering-particles.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+img.picture {
+  border-radius: 14px;
+  box-shadow: 0px 80px white; }
+
+img.profilePic {
+  width: '50%';
+  height: '50%';
+  object-fit: cover; }
+
+img.iconsMan {
+  width: 80%;
+  object-fit: cover; }
+
+div.multiplier {
+  display: flex;
+  flex-direction: row; }
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px; }
+
+.App-title {
+  font-size: 1.5em;
+  animation-name: colorChange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; }
+
+@keyframes colorChange {
+  0% {
+    color: #c45568; }
+  25% {
+    color: yellow; }
+  50% {
+    color: blue; }
+  75% {
+    color: green; }
+  100% {
+    color: red; } }
+
+.App-intro {
+  font-size: large; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.backgroundVideo {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  object-fit: cover; }
+
+.backgroundVideo {
+  width: 100%;
+  height: 150%;
+  height: 1200px;
+  min-height: 100%;
+  object-fit: cover; }
+
+h1 {
+  color: white; }
+
+h1.title {
+  background: -webkit-linear-gradient(top, #878787, #000);
+  background: linear-gradient(bottom, #2c0b0b, #d3b5d3, #743750);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding: 0.2em; }
+
+div.MyStory {
+  display: flex;
+  flex: 1;
+  width: 100%;
+  height: 1100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: black;
+  background-image: url("Resources/Images/sitting-on-a-bus.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fill;
+  object-fit: fill;
+  filter: blur(); }
+
+h1.MyStory {
+  color: white;
+  border: 4px solid white;
+  border-radius: 12px; }
+
+button.MyStory {
+  border-radius: 5px;
+  color: white;
+  background: linear-gradient(#084c63, #7c7cc2);
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+p.MyStory {
+  text-align: center;
+  font-family: sans-serif;
+  border: 1px solid white;
+  border-radius: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: white;
+  font-size: 2em; }
+
+.cardImage {
+  width: 70%; }
+
+/* For Computers (Design for Mobile-first): */
+@media only screen and (min-width: 768px) {
+  img.iconsMan {
+    width: 10%; }
+  h1.title {
+    font-size: 5em; }
+  .cardImage {
+    width: 20%; } }
+
+/* iPads (portrait and landscape) ----------- */
+/* Smartphones (portrait and landscape) ----------- */
+/*
+        div.boxAnimation {
+            background-color: red;
+            position: relative;
+            animation-name: movingBox;
+            animation-duration: infinite;
+            width: 50px;
+            height: 50px;
+        }
+
+        @keyframes movingBox {
+            0%   {background-color:red; left:0px; top:0px;}
+            25%  {background-color:yellow; left:200px; top:0px;}
+            50%  {background-color:blue; left:200px; top:200px;}
+            75%  {background-color:green; left:0px; top:200px;}
+            100% {background-color:red; left:0px; top:0px;}
+        }
+        */

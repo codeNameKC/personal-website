@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Multiplier from './ContainerComponents/Multiplier';
-import MyStory from './ContainerComponents/MyStory';
+import MainPage from './ContainerComponents/MainPage';
+import MyStory from './ContainerComponents/SmallComponents/MyStory';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { store } from './Redux/store'; 
 import { Provider } from 'react-redux';
@@ -11,7 +11,7 @@ const App = () => {
   <Provider store={store}>
   <BrowserRouter>
   <div>
-      <Route path="/" exact component={Multiplier}/>
+      <Route path="/" exact component={MainPage}/>
       <Route path="/MyStory" exact component={MyStory}/> 
   </div>
   </BrowserRouter>
