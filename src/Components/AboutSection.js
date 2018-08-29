@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {ListGroup, ListGroupItem} from 'reactstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const AboutSection = (props) => {
     if (props.language === 'English') {
@@ -12,6 +13,7 @@ const AboutSection = (props) => {
             justifyContent: 'space-between',
             alignContent: 'space-between'
         }}>
+        
             <h1 id="About">
                 About Me
             </h1>
@@ -22,9 +24,11 @@ const AboutSection = (props) => {
                 learn new technologies if necessary.
             </p>
             <Link to="/MyStory">
+            <ScrollAnimation animateIn="zoomIn" >
                 <button>
                     My Developer Story
                 </button>
+                </ScrollAnimation>
             </Link>
             <h3 style={{marginTop: '1.8em', color: 'white'}}>
               <strong>  Basic Info: </strong>
@@ -78,12 +82,13 @@ const AboutSection = (props) => {
                     Open to relocation?: Yes
                 </ListGroupItem>
                 <br/>
+                <ScrollAnimation animateIn="jello" >
                 <h3>
                     <strong>
                         Contact information:
                     </strong>
                 </h3>
-
+                </ScrollAnimation>
                 <ListGroupItem
                     style={{
                     backgroundColor: 'transparent',
@@ -118,16 +123,18 @@ const AboutSection = (props) => {
                     Om mig
                 </h1>
                 <p className="textBody">
-                Jeg er meget en meget passioneret Web Developer,
-                der kan hjælpe dit firma med at desgigne jeres hjemmeside, tilføje funktioner 
+                Jeg er en meget passioneret Web Developer,
+                der kan hjælpe dit firma med at desgigne jeres hjemmeside, tilføje funktioner
                 og forbedre brugererfaringen. Jeg kan også hjælpe med at udvikle en multi platform mobil app med React Native.
-                Jeg er ikke bange for at lære nye teknologier hvis nødvendigt. 
+                Jeg er ikke bange for at lære nye teknologier hvis nødvendigt.
 
                 </p>
                 <Link to="/MyStory">
+                <ScrollAnimation animateIn="zoomIn" >
                     <button>
                         Min Developer historie
                     </button>
+                    </ScrollAnimation>
                 </Link>
                 <h3 style={{marginTop: '1.8em', color: 'white'}}>
                   <strong>  Grund Informationer: </strong>
@@ -163,7 +170,7 @@ const AboutSection = (props) => {
                         backgroundColor: 'transparent',
                         color: 'white'
                     }}>
-                        Bopæl: Danmark, København område. 
+                        Bopæl: Danmark, København område.
                     </ListGroupItem>
                     <br/>
                     <ListGroupItem
@@ -171,7 +178,7 @@ const AboutSection = (props) => {
                         backgroundColor: 'transparent',
                         color: 'white'
                     }}>
-                        Flyedende i: Engelsk & Dansk både mundtligt og skriftligt. 
+                        Flyedende i: Engelsk & Dansk både mundtligt og skriftligt.
                     </ListGroupItem>
                     <ListGroupItem
                         style={{
@@ -181,12 +188,13 @@ const AboutSection = (props) => {
                         Åben over for udflytning?: Ja
                     </ListGroupItem>
                     <br/>
+                    <ScrollAnimation animateIn="jello" >
                     <h3>
                         <strong>
-                            Kontact Informationer:
+                            Kontakt Informationer:
                         </strong>
                     </h3>
-    
+                    </ScrollAnimation>
                     <ListGroupItem
                         style={{
                         backgroundColor: 'transparent',
@@ -201,7 +209,7 @@ const AboutSection = (props) => {
                     }}>
                         Email Addresse: kaceyokafor@gmail.com
                     </ListGroupItem>
-    
+
                 </ListGroup>
                 <br/>
                 <br/>

@@ -1,13 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Landing from './SmallComponents/Landing';
+import Landing from './Components/Landing';
 import {connect} from 'react-redux';
-import {multiplyAction, divideAction, changecolorAction} from '../Redux/actions/multiplyActions';
-import WhyHireSection from './SmallComponents/WhyHireSection';
-import AboutSection from './SmallComponents/AboutSection';
-import EducationSection from './SmallComponents/EducationSection';
-import ExpAndSkillsSection from './SmallComponents/ExpAndSkillsSection';
-import '../Styles.css';
+import {multiplyAction, divideAction, changecolorAction} from './Redux/actions/multiplyActions';
+import WhyHireSection from './Components/WhyHireSection';
+import AboutSection from './Components/AboutSection';
+import EducationSection from './Components/EducationSection';
+import ExpAndSkillsSection from './Components/ExpAndSkillsSection';
+import ScrollAnimation from 'react-animate-on-scroll';
+import './Styles.css';
 
 class MainPage extends React.Component {
 

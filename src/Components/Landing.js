@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from '../../logo.svg';
-import {Link} from 'react-router-dom';
-import { CardBody, Card, CardImg, CardText,  CardTitle, CardSubtitle, } from 'reactstrap';
+import { CardBody, Card, CardImg,  CardTitle, CardSubtitle, } from 'reactstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import "animate.css/animate.min.css";
 
 /* TODOS
 1. Make hover events
@@ -22,62 +22,47 @@ const Landing = (props) => {
     if (props.language === 'English') {
         return (
             <div
-                className="grid"
+               
                 style={{
                 alignContent: 'center',
                 justifyContent: 'center'
             }}>
-                <header>
-                    <img
-                        src={logo}
-                        className="App-logo"
-                        alt="logo"
-                        style={{
-                        justifyContent: 'center',
-                        alignContent: 'center'
-                    }}/>
-                    <h1
-                        className="App-title"
-                        style={{
-                        color: 'white',
-                        fontSize: '1.7em',
-                        justifyContent: 'center',
-                        alignContent: 'center'
-                    }}>
-                        Made with React.js
-                    </h1>
-                    <button
-                        style={{
-                        width: '20%',
-                        marginLeft: '5%',
-                        marginRight: '5%',
-                    }}
-                        onClick={props.changeLanguage}>
-                        Danish
-                    </button>
-                </header>
                 <main>
                     <div className="Landing">
-                        <div > <h1
-                            className="title" style={{
+                        
+                       <h1
+                            className="title animated zoomIn" style={{
                                 style: 'bold'
                             }}>
-                            Kacey Okafor
+                           Web Developer
                         </h1>
-                        </div>
-                        <Card className="cardImage" >
-                               <CardImg top width="100%" src={require('../../Resources/Images/picture-for-job-cropped.jpg')} alt="Card image cap" />
+                        
+                        <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <p style={{fontSize: '2rem'}}> Language:  </p> 
+                        <button
+                        style={{
+                        marginLeft: '3%',
+                        marginRight: '3%',
+                       
+                    }}
+                        onClick={props.changeLanguage}>
+                        English
+                    </button>
+                    </div >
+                        <Card className="cardImage animated zoomIn" style={{ marginTop: '1.5%'}} >
+                               <CardImg top width="100%" src={require('../Resources/Images/picture-for-job-cropped.jpg')} alt="Card image cap" />
                                <CardBody>
-                                 <CardTitle style= {{ fontSize: '2.5em'}}>Web Developer</CardTitle>
-                                 <CardSubtitle>Situated in Copenhagen area</CardSubtitle>
+                                 <CardTitle style= {{ fontSize: '2.5em'}}>Kacey Okafor</CardTitle>
+                                 <CardSubtitle> Situated in Copenhagen</CardSubtitle>
 
                                </CardBody>
                              </Card>
-
-                        <h1 style={{padding: '0.8em'}}>
+                         <ScrollAnimation animateIn="rollIn" >
+                        <h1 style={{padding: '0.8em'}} >
                             Table of Contents
                         </h1>
-                        <div style={{backgroundColor: 'grey', marginBottom: 20, borderRadius: '20px', border: '2px solid white', opacity: 0.6, width: '90%'}}>
+                        </ScrollAnimation>
+                        <div style={{backgroundColor: 'grey', marginBottom: 20, borderRadius: '20px', border: '2px solid white', opacity: 0.6, width: '90%'}} >
                         <ul>
                             <a href="#About">
                                 <li>
@@ -103,7 +88,7 @@ const Landing = (props) => {
                         </ul>
                         </div>
                     </div>
-
+                  
                     <nav>
                     <a href="#About" style={{width: '25%' }}><button className="nav" style={{ background: 'linear-gradient( rgb(8, 76, 99), rgb(124, 124, 194))'}}>
                            About
@@ -127,61 +112,44 @@ const Landing = (props) => {
 
         return (
             <div
-                className="grid"
                 style={{
                 alignContent: 'center',
                 justifyContent: 'center'
             }}>
-                <header>
-                    <img
-                        src={logo}
-                        className="App-logo"
-                        alt="logo"
-                        style={{
-                        justifyContent: 'center',
-                        alignContent: 'center'
-                    }}/>
-                    <h1
-                        className="App-title"
-                        style={{
-                        color: 'white',
-                        fontSize: '1.7em',
-                        justifyContent: 'center',
-                        alignContent: 'center'
-                    }}>
-                        Lavet med React.js
-                    </h1>
-                    <button
-                        style={{
-                        width: '20%',
-                        marginLeft: '5%',
-                        marginRight: '5%',
-                    }}
-                        onClick={props.changeLanguage}>
-                        English
-                    </button>
-                </header>
                 <main>
                     <div className="Landing">
-                        <div > <h1
-                            className="title" style={{
+                    <h1
+                            className="title animated zoomIn" style={{
                                 style: 'bold'
                             }}>
-                            Kacey Okafor
+                           Web Udvikler
                         </h1>
-                        </div>
-                        <Card className="cardImage" >
-                               <CardImg top width="100%" src={require('../../Resources/Images/picture-for-job-cropped.jpg')} alt="Card image cap" />
+                        
+                        <div style={{ display: 'flex', flexDirection: 'row'}}>
+                        <p style={{fontSize: '2rem'}}> Sprog:  </p> 
+                        <button
+                        style={{
+                        marginLeft: '3%',
+                        marginRight: '3%',
+                       
+                    }}
+                        onClick={props.changeLanguage}>
+                        Danish
+                    </button>
+                    </div>
+                        <Card className="cardImage animated zoomIn">
+                               <CardImg top width="100%" src={require('../Resources/Images/picture-for-job-cropped.jpg')} alt="Card image cap" />
                                <CardBody>
-                                 <CardTitle style= {{ fontSize: '2.5em'}}>Web Developer</CardTitle>
-                                 <CardSubtitle>Bosat i København området</CardSubtitle>
+                                 <CardTitle style= {{ fontSize: '2.5em'}}> Kacey Okafor </CardTitle>
+                                 <CardSubtitle>Bosat i København </CardSubtitle>
 
                                </CardBody>
                              </Card>
-
-                        <h1 style={{padding: '0.8em'}}>
+                             <ScrollAnimation animateIn="rollIn" >
+                        <h1 style={{padding: '0.8em'}} className="animated zoomIn">
                             Indholds Fortegnelse
                         </h1>
+                        </ScrollAnimation>
                         <div style={{backgroundColor: 'grey', marginBottom: 20, borderRadius: '20px', border: '2px solid white', opacity: 0.6, width: '90%'}}>
                         <ul>
                             <a href="#About">

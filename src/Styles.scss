@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
+    text-align: center; 
 }
 
 @mixin center_element ($flex-direction) {
@@ -37,6 +38,10 @@ html {
     font-family: sans-serif;
     text-align: center;
   }
+
+a {
+  text-decoration: none;
+}
 
   a:visited {
     color: rgb(47, 47, 199);
@@ -159,11 +164,6 @@ html {
     }
   }
 
-  .textBody {
-    border: 1px solid #000;
-    padding: 4px;
-  }
-
   li {
     font-size: 1.3em;
     padding: 5px;
@@ -206,8 +206,7 @@ html {
     &.ExperienceAndSkills {
       @include backgroundImage(url("Resources/Images/triangles-background.jpg"), fixed);
     }
-
-  }
+}
 
 
   main {
@@ -365,7 +364,7 @@ h1 {
   }
 
   .cardImage {
-    width: 70%;
+    width: 75%;
   }
 
   /* For Computers (Design for Mobile-first): */
@@ -383,13 +382,18 @@ h1 {
           }
 
           div.WhyHireMe {
-            @extend %center_element;
+            display: flex;
+              flex-direction: column;
+              align-content: center;
+              justify-content: center;
+              align-items: center;
+              justify-items: center;
             background: linear-gradient(rgba(1, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://i.pinimg.com/originals/f8/fb/a2/f8fba21c09ca08ab3cd3c09671e322e0.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             width: 100%;
-            height: 1300px; 
+            height: 600px;
           }
   }
 

@@ -24,7 +24,7 @@ const ExpAndSkillsSection = (props) => {
             <h1 id="ExperienceAndSkills">
                 Experience and Skills
             </h1>
-            <p>
+            <p className="textBody">
                 I am mostly experienced with front-end development, but also have some
                 experience with backend work, such as using a database (MongoDB) and setting up
                 an API for the front end with Node.js and the Express framework.
@@ -33,7 +33,9 @@ const ExpAndSkillsSection = (props) => {
                 <strong> Front-end: </strong>
                 -Personal projects built with React.js:
                     -Social media website + app built with React.js and React Native respectively (not yet released)
-                    -Personal website with responsive design 			   (Link further above)
+                    -Personal website with responsive design
+                    <div style={{width: '100%', height: '5px', color: 'white'}}>
+                        </div>
                 <strong> Back-end: </strong>
                     -Created a REST API with Express.js for a my React.js front-end.
                     -Used MongoDB to save data
@@ -382,8 +384,6 @@ const ExpAndSkillsSection = (props) => {
                             marginBottom: 50
                         }}
                             >
-                            I have used React Native to work on mobile apps for both iOS and Android
-                            devices.
                             Jeg har brugt React Native til at arbejde på mobil apps til både iOS og Android enheder. 
                         </p>
       
