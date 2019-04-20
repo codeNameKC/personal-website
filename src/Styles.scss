@@ -1,6 +1,8 @@
 
 /*Scss*/
 
+$btn-gradient: linear-gradient(#084c63, #7c7cc2);
+
 %center_element {
   display: flex;
     flex-direction: column;
@@ -51,28 +53,28 @@ a {
 
 
   #WhyHireMe {
-    background: linear-gradient(#084c63, #7c7cc2);
+    background: $btn-gradient;
     width: 100%;
     height: 75px;
     @extend %center_element;
   }
 
   #About {
-    background: linear-gradient(#084c63, #7c7cc2);
+    background: $btn-gradient;
     width: 100%;
     height: 75px;
     @extend %center_element;
   }
 
   #Education {
-    background: linear-gradient(#084c63, #7c7cc2);
+    background: $btn-gradient;
     width: 100%;
     height: 100px;
     @extend %center_element;
   }
 
   #ExperienceAndSkills {
-    background: linear-gradient(#084c63, #7c7cc2);
+    background: $btn-gradient;
     width: 100%;
     @extend %center_element;
   }
@@ -87,9 +89,9 @@ a {
     width: 100%;
     color: white;
     height: 50px;
-    background: linear-gradient(#084c63, #7c7cc2);
+    background: $btn-gradient;
     &:hover {
-      filter: brightness(110%);
+      filter: brightness(120%);
     }
   }
 
@@ -119,18 +121,17 @@ a {
 
   nav {
     @include center_element(row);
+
     bottom: 0;
     width: 100%;
     text-align: center;
-    text-justify: center;
     position: fixed;
     background: radial-gradient(#35474e, #16162c);
     right: 0;
     left: 0;
-    padding: 2px;
+    padding: 0px;
     z-index: 2;
   }
-
 
   p {
     font-family: sans-serif;
@@ -141,7 +142,7 @@ a {
     @extend %center_element;
     &.experience {
       height: 40px;
-      background: linear-gradient(#084c63, #7c7cc2);
+      background: $btn-gradient;
       border-radius: 20px;
       margin-top: 0;
       margin-bottom: 0;
@@ -201,7 +202,7 @@ a {
       width: 100%;
     }
     &.Education {
-      @include backgroundImage( url("http://www.host2post.com/images/UPwq-hnLLx5N0M~/1920x1200/download/background-simple-beautiful-blue-wallpaper-wallpapers.jpg"), fixed);
+      @include backgroundImage( url("http://cdn.knowledgehi.com/2560x1600/20180116/5a5cfa3c81ae9.jpg"), fixed);
     }
     &.ExperienceAndSkills {
       @include backgroundImage(url("Resources/Images/triangles-background.jpg"), fixed);
@@ -225,7 +226,7 @@ a {
       height: '50%';
       object-fit: cover;
     }
-    &.iconsMan {
+    &.icons {
         width: 80%;
         object-fit: cover;
 
@@ -291,12 +292,6 @@ a {
     object-fit: cover;
   }
 
-
-
-
-
-
-
   .backgroundVideo {
     width: 100%;
     height: 150%;
@@ -309,13 +304,13 @@ h1 {
 }
 
   h1.title {
-    background: -webkit-linear-gradient(top, #878787, #000);
-    background: linear-gradient(bottom, #2c0b0b, #d3b5d3, #743750);
+    background: linear-gradient(right, #ffffff, #c5ca6a, #f1f50b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
     font-size: 2.5em;
     padding: 0.2em;
+    text-decoration-style: bold;
   }
 
   div.MyStory {
@@ -328,7 +323,7 @@ h1 {
     align-items: center;
     align-content: center;
     background: black;
-    background-image: url('Resources/Images/sitting-on-a-bus.jpg');
+    background-color: black;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -369,8 +364,8 @@ h1 {
 
   /* For Computers (Design for Mobile-first): */
   @media only screen and (min-width: 768px) {
-          img.iconsMan {
-            width: 10%;
+          img.icons {
+            width: 20%;
 
           }
           h1.title {

@@ -59,7 +59,7 @@ button {
   height: 50px;
   background: linear-gradient(#084c63, #7c7cc2); }
   button:hover {
-    filter: brightness(110%); }
+    filter: brightness(120%); }
 
 .popIn {
   filter: grayscale(100%);
@@ -97,12 +97,11 @@ nav {
   bottom: 0;
   width: 100%;
   text-align: center;
-  text-justify: center;
   position: fixed;
   background: radial-gradient(#35474e, #16162c);
   right: 0;
   left: 0;
-  padding: 2px;
+  padding: 0px;
   z-index: 2; }
 
 p {
@@ -157,7 +156,7 @@ div.WhyHireMe {
 
 div.Education {
   width: 100%;
-  background-image: url("http://www.host2post.com/images/UPwq-hnLLx5N0M~/1920x1200/download/background-simple-beautiful-blue-wallpaper-wallpapers.jpg");
+  background-image: url("http://cdn.knowledgehi.com/2560x1600/20180116/5a5cfa3c81ae9.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -189,7 +188,7 @@ img.profilePic {
   height: '50%';
   object-fit: cover; }
 
-img.iconsMan {
+img.icons {
   width: 80%;
   object-fit: cover; }
 
@@ -252,13 +251,13 @@ h1 {
   color: white; }
 
 h1.title {
-  background: -webkit-linear-gradient(top, #878787, #000);
-  background: linear-gradient(bottom, #2c0b0b, #d3b5d3, #743750);
+  background: linear-gradient(right, #ffffff, #c5ca6a, #f1f50b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   font-size: 2.5em;
-  padding: 0.2em; }
+  padding: 0.2em;
+  text-decoration-style: bold; }
 
 div.MyStory {
   display: flex;
@@ -270,7 +269,7 @@ div.MyStory {
   align-items: center;
   align-content: center;
   background: black;
-  background-image: url("Resources/Images/sitting-on-a-bus.jpg");
+  background-color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -306,8 +305,8 @@ p.MyStory {
 
 /* For Computers (Design for Mobile-first): */
 @media only screen and (min-width: 768px) {
-  img.iconsMan {
-    width: 10%; }
+  img.icons {
+    width: 20%; }
   h1.title {
     font-size: 5em; }
   .cardImage {

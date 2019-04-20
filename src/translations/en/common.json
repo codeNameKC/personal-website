@@ -1,0 +1,81 @@
+{
+    "landing": {
+        "job-title": "Full-stack Developer",
+        "situated": "Situated in Copenhagen",
+        "contents": "Table of Contents",
+        "about-me": "About me",
+        "education": "Education",
+        "experience": "Experience and Skills",
+        "why-hire": "Why Hire Me?"
+    },
+    "about-me": {
+        "about-me": " About Me",
+        "about-me-text": {
+            "line-1": "I am a very passionate Web Developer,",
+            "line-2": "who can help your company create and design your website, add features",
+            "line-3": "and improve the user experience. I can also help develop cross platform mobile apps with React Native.",
+            "line-4": " I am not afraid to learn new technologies if necessary."
+        },
+        "story": "My Developer Story",
+        "basic-info": "Basic Info:",
+        "occupation": " Occupation:",
+        "job-title": "Web Development",
+        "nationality": "Nationality: Danish",
+        "residence": "Country of Residence: Denmark, Copenhagen",
+        "fluent-in": " Fluent in: English & Danish",
+        "relocation": "Open to relocation?: Yes",
+        "contact-info": " Contact information:",
+        "phone-nr": "Mobile number: +45 93 85 92 36",
+        "email": "Email Address: kaceyokafor@gmail.com"
+    },
+    "education": {
+        "education": "Education",
+        "completed-courses": "Completed courses on the following: ",
+        "courses-list": "HTML, CSS, Responsive Design, SASS, JavaScript, React.js",
+        "on-website": "on the website",
+        "courses-link": "Completed courses and activity on Codecademy can be seen on the following link:",
+        "read-documentation": "Read the official React and React Native documention + other documentation:",
+        "sololearn-text": "Earned a certificate on HTML and JavaScript on SoloLearn.",
+        "html-certificate": "HTML certificate:",
+        "javascript-certificate": "JavaScript certificate:",
+        "youtube-text": "Watched countless Coding Tutorials on Youtube, made by people with many years of experience such as:",
+        "and": "and",
+        "w3schools": " W3schools has indepth and simple to understand documentation, which I have used to learn how to use various HTML elements, CSS properties and vanilla JavaSript.",
+        "udacity": "Completed a Udacity course about how to use GitHub:"
+    },
+    "exp-and-skills": {
+        "exp-and-skills": "Experience and Skills",
+        "experience-text": {
+            "line-1": "Having worked as a full-stack developer, I have experience with both front-end and back-end development.",
+            "line-2": "I have put my theoretical knowledge to the test through personal projects and as a team player in large scale projects for clients"
+        },
+        "list-of-skills": "Below is a list of Skills and how I have made use of them:",
+        "html": "I have used HTML to create the elements on this page.",
+        "css": {
+            "line-1": "I have used CSS to style my webpage. I have used media queries and responsive values such as percentages to make my page responsive.",
+            "line-2": "I am also familiar with preprocessors such as SASS for CSS."
+        },
+        "javascript": "I have used JavaScript to write any functionality on this page. ",
+        "react": {
+            "line-1": " I mainly use the React.js javascript framework for my projects.  I use Redux as my state manager.",
+            "line-2": "I have made an example below, where I follow the Redux flow of dispatching an action to a reducer which changes the state in an immutable way:"
+        },
+        "github-text": "I use GitHub to have version control for my project. My GitHub page can be found at:",
+        "react-native-text": " I have used React Native to work on mobile apps for both iOS and Android devices."
+    },
+    "my-story": {
+        "back": "Back",
+        "my-story": "My Story",
+        "line-1": "I started pursueing my passion as a software engineer at 15 years old. I was always curious about what went on behind the scenes.",
+        "line-2": "It is a tough industry to get into. That didn't turn me off.",
+        "line-3": "I immersed myself as much as I could; listening to talks about the industry, about what programming is and what languages + frameworks were popular.",
+        "line-4": " I started courses mainly on Codecademy to gain theoretical knowledge about JavaScript and everything that it encomposes. I put this theoretical knowledge to the test, through personal projects. "
+    },
+    "why-hire": {
+        "why-hire": "Why Hire Me",
+        "line-1": "My job is my 1st priority. I arrive on time and do my best to finish the job on time, even if it requires some of my free time.",
+        "line-2": "I am very passionate about programming. For that reason I won't mind learning new technologies at home and I can be flexible, if necessary.",
+        "line-3": "I am a team player and will gladly become part of your team.",
+        "line-4": "I look forward to working for your company if you are looking for a passionate web developer who can help make your website or mobile app come to life, with the latest web technologies such as React.js."
+    }
+}

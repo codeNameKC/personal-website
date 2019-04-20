@@ -1,0 +1,81 @@
+{
+    "landing": {
+        "job-title": "Full-stack Udvikler",
+        "situated": "Bosat i København",
+        "contents": "Indholds Fortegnelse",
+        "about-me": "Om mig",
+        "education": "Uddannelse",
+        "experience": "Erfaring og fagkompetencer",
+        "why-hire": "Hvorfor Hyre Mig?"
+    },
+    "about-me": {
+        "about-me": "Om mig",
+        "about-me-text": {
+            "line-1": "Jeg er en meget passioneret Web Developer,",
+            "line-2": "der kan hjælpe dit firma med at desgigne jeres hjemmeside, tilføje funktioner",
+            "line-3": "og forbedre brugererfaringen. Jeg kan også hjælpe med at udvikle en multi platform mobil app med React Native.",
+            "line-4": " Jeg er ikke bange for at lære nye teknologier hvis nødvendigt."
+        },
+        "story": "Min Developer historie",
+        "basic-info": "Grund Informationer:",
+        "occupation": "Beskæftigelse:",
+        "job-title": "Web Udvikling",
+        "nationality": "Nationalitet: Dansk",
+        "residence": "Bopæl: Danmark, København område.",
+        "fluent-in": "Flyedende i: Engelsk & Dansk både mundtligt og skriftligt.",
+        "relocation": "Åben over for udflytning?: Ja",
+        "contact-info": "Kontakt Informationer:",
+        "phone-nr": "Mobil nummer: +45 93 85 92 36",
+        "email": "Email Addresse: kaceyokafor@gmail.com"
+    },
+    "education": {
+        "education": "Uddannelse",
+        "completed-courses": "Jeg har fuldført kurser om de følgende: ",
+        "courses-list": "HTML, CSS, Responsive Design, SASS, JavaScript, React.js",
+        "on-website": "på hjemmesiden:",
+        "courses-link": "Fuldførte kurser og aktivitet på Codecademy kan ses på linket:",
+        "read-documentation": "Læst den officiele React og React Native Documentation + andet dokumentation:",
+        "sololearn-text": "Har opnået et certifikat på HTML og JavaScript på SoloLearn.",
+        "html-certificate": "HTML certifikat:",
+        "javascript-certificate": "JavaScript certifikat:",
+        "youtube-text": "Set utallige Kode Tutorials på Youtube, lavet af personer med mange års erfaring, f.eks",
+        "and": "og",
+        "w3schools": " W3schools har detaljeret og let forstålig dokumentation, hvilket jeg har benyttet mig af for at lære brugen af diverse HTML elementer, CSS egenskaber, og vanilla JavaScript.",
+        "udacity": "Fuldført et Udacity kursus om brugen af Git og GitHub:"
+    },
+    "exp-and-skills": {
+      "exp-and-skills": "Erfaring og kompetencer",
+      "experience-text": {
+          "line-1": " Da jeg har arbejdet som en full-stack developer, har jeg erfaring med både front-end og back-end development. ",
+          "line-2": "  Jeg har  anvendt mit teoretiske viden gennem mine selvstændige projekter og som team player i store projekter for klienter."
+      },
+      "list-of-skills": "Nedenstående er en liste af mine fagkompetencer og hvordan jeg har benyttet dem:",
+      "html": "Jeg har anvendt HTML til at lave elementer på denne hjemmeside.",
+      "css": {
+          "line-1": "Jeg har brugt CSS til at designe min hjemmeside. Jeg har gjordt brug af Media Queries og Responsive Design for at gøre denne side responsive over for diverse skærmstørrelser.",
+          "line-2": "Jeg er bekendt med CCS pre-proccessors, ved at have anvendt SASS til at forkorte antal kode linjer på en smart måde, og så recompile dette til CSS med en CSS-watcher."
+      },
+      "javascript": "Jeg har brugt JavaScript for at skrive funktionaliteterne på denne side. ",
+      "react": {
+          "line-1": " Jeg anvender hovedsageligt React.js til mine projekter. Jeg bruger Redux som min state manager.",
+          "line-2": "Jeg har lavet et eksempel på hvordan jeg bruger Redux, således at jeg dispatcher en action til en reducer der forandrer the state i en uforanderlig vis:"
+      },
+      "github-text": "Jeg har brugt GitHub for at samarbejde andre programmører og for at have version control i mine projekter. Min GitHub side kan findes her: ",
+      "react-natiove-text": "Jeg har brugt React Native til at arbejde på mobil apps til både iOS og Android enheder. "
+    },
+    "my-story": {
+        "back": "Tilbage",
+        "my-story": "Min Historie",
+        "line-1": " Jeg begyndte at forfølge min passion som software inginiør som 15 årig. Jeg har altid undret mig over hvordan computer software blev lavet.",
+        "line-2": "Det er en svær industry at komme ind i. Det skræmte mig ikke.",
+        "line-3": "Jeg indlevede mig så meget som muligt; jeg lyttede til taler om Software Development industrien, og om hvad programmering gik ud på, samt hvilke programmeringssprog + frameworks var populære.",
+        "line-4": "Jeg begyndte kurser på hovedsageligt Codecademy for at opbygge teoretisk viden om JavaScript og alt der høre med. Denne viden afprøvede jeg gennem personlige projekter. "
+    },
+    "why-hire": {
+        "why-hire": "Hvorfor Hyre Mig",
+        "line-1": " Mit job er min første prioritet. Jeg ankommer til tiden og gør mit bedste til at færdiggøre arbejdet til tide, selv hvis det kræver lidt af min fritid.",
+        "line-2": "Jeg er meget passioneret om programmering. Af denne grund har jeg ikke noget imod at lære nye teknologier derhjemme og kan være fleksibel,  hvis det er nødvendigt.",
+        "line-3": "Jeg vil med glæde blive en del af et hold.",
+        "line-4": "Jeg ser frem til at arbejde for dit firma, hvis du leder efter en passioneret Web Developer der kan hjælpe med at få lavet din hjemmeside eller mobil app til livs, med de nyeste web development teknologier såsom React.js."
+    }
+}

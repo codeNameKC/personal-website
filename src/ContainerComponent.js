@@ -7,7 +7,6 @@ import WhyHireSection from './Components/WhyHireSection';
 import AboutSection from './Components/AboutSection';
 import EducationSection from './Components/EducationSection';
 import ExpAndSkillsSection from './Components/ExpAndSkillsSection';
-import ScrollAnimation from 'react-animate-on-scroll';
 import './Styles.css';
 
 class MainPage extends React.Component {

@@ -2,9 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {ListGroup, ListGroupItem} from 'reactstrap';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { useTranslation } from 'react-i18next';
 
 const AboutSection = (props) => {
-    if (props.language === 'English') {
+
+    const { t } = useTranslation('common');
+
     return (
 
         <div
@@ -15,23 +18,23 @@ const AboutSection = (props) => {
         }}>
         
             <h1 id="About">
-                About Me
+            { t('about-me.about-me') }
             </h1>
             <p className="textBody">
-                I am a very passionate web developer, who can help your company create and
-                design your website, add features and improve the user experience. I can also
-                help develop cross platform mobile apps with React Native. I am not afraid to
-                learn new technologies if necessary.
+            { t('about-me.about-me-text.line-1') }
+            { t('about-me.about-me-text.line-2') }
+            { t('about-me.about-me-text.line-3') }
+            { t('about-me.about-me-text.line-4') }
             </p>
             <Link to="/MyStory">
             <ScrollAnimation animateIn="zoomIn" >
                 <button>
-                    My Developer Story
+                { t('about-me.story') }
                 </button>
                 </ScrollAnimation>
             </Link>
             <h3 style={{marginTop: '1.8em', color: 'white'}}>
-              <strong>  Basic Info: </strong>
+              <strong>    { t('about-me.basic-info') } </strong>
             </h3>
             <ListGroup
                 style={{
@@ -46,9 +49,9 @@ const AboutSection = (props) => {
                     color: 'white'
                 }}>
                     <strong>
-                        Occupation:
+                    { t('about-me.occupation') }
                     </strong>
-                    Web Development
+                    { t('about-me.job-title') }
                 </ListGroupItem>
                 <br/>
                 <ListGroupItem
@@ -56,7 +59,7 @@ const AboutSection = (props) => {
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Nationality: Danish
+                     { t('about-me.nationality') }
                 </ListGroupItem>
                 <br/>
                 <ListGroupItem
@@ -64,7 +67,7 @@ const AboutSection = (props) => {
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Country of Residence: Denmark, Copenhagen
+                    { t('about-me.residence') }
                 </ListGroupItem>
                 <br/>
                 <ListGroupItem
@@ -72,20 +75,20 @@ const AboutSection = (props) => {
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Fluent in: English, Danish
+                    { t('about-me.fluent-in') }
                 </ListGroupItem>
                 <ListGroupItem
                     style={{
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Open to relocation?: Yes
+                   { t('about-me.relocation') }
                 </ListGroupItem>
                 <br/>
                 <ScrollAnimation animateIn="jello" >
                 <h3>
                     <strong>
-                        Contact information:
+                    { t('about-me.contact-info') }
                     </strong>
                 </h3>
                 </ScrollAnimation>
@@ -94,14 +97,14 @@ const AboutSection = (props) => {
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Mobile number: +45 93 85 92 36
+                    { t('about-me.phone-nr') }
                 </ListGroupItem>
                 <ListGroupItem
                     style={{
                     backgroundColor: 'transparent',
                     color: 'white'
                 }}>
-                    Email Address: kaceyokafor@gmail.com
+                   { t('about-me.email') }
                 </ListGroupItem>
 
             </ListGroup>
@@ -111,113 +114,6 @@ const AboutSection = (props) => {
             <br/>
         </div>
         )
-    } else {
-        return (
-            <div
-                className="about"
-                style={{
-                justifyContent: 'space-between',
-                alignContent: 'space-between'
-            }}>
-                <h1 id="About">
-                    Om mig
-                </h1>
-                <p className="textBody">
-                Jeg er en meget passioneret Web Developer,
-                der kan hjælpe dit firma med at desgigne jeres hjemmeside, tilføje funktioner
-                og forbedre brugererfaringen. Jeg kan også hjælpe med at udvikle en multi platform mobil app med React Native.
-                Jeg er ikke bange for at lære nye teknologier hvis nødvendigt.
-
-                </p>
-                <Link to="/MyStory">
-                <ScrollAnimation animateIn="zoomIn" >
-                    <button>
-                        Min Developer historie
-                    </button>
-                    </ScrollAnimation>
-                </Link>
-                <h3 style={{marginTop: '1.8em', color: 'white'}}>
-                  <strong>  Grund Informationer: </strong>
-                </h3>
-                <ListGroup
-                    style={{
-                    display: 'flex',
-                    alignContent: 'space-around',
-                    marginLeft: '5%',
-                    marginRight: '5%',
-                }}>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        <strong>
-                            Beskæftigelse:
-                        </strong>
-                        Web Development
-                    </ListGroupItem>
-                    <br/>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Nationalitet: Dansk
-                    </ListGroupItem>
-                    <br/>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Bopæl: Danmark, København område.
-                    </ListGroupItem>
-                    <br/>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Flyedende i: Engelsk & Dansk både mundtligt og skriftligt.
-                    </ListGroupItem>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Åben over for udflytning?: Ja
-                    </ListGroupItem>
-                    <br/>
-                    <ScrollAnimation animateIn="jello" >
-                    <h3>
-                        <strong>
-                            Kontakt Informationer:
-                        </strong>
-                    </h3>
-                    </ScrollAnimation>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Mobil nummer: +45 93 85 92 36
-                    </ListGroupItem>
-                    <ListGroupItem
-                        style={{
-                        backgroundColor: 'transparent',
-                        color: 'white'
-                    }}>
-                        Email Addresse: kaceyokafor@gmail.com
-                    </ListGroupItem>
-
-                </ListGroup>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-            </div>
-            )
-    }
-}
+};
 
 export default AboutSection;

@@ -1,27 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyStory from './Components/MyStory';
-import ContainerComponent from './ContainerComponent'; 
-import { BrowserRouter, Route } from 'react-router-dom';
-import { store } from './Redux/store'; 
-import { Provider } from 'react-redux';
+import App from './App';
+import {I18nextProvider, initReactI18next} from 'react-i18next';
+import i18next from 'i18next';
+import i18n from "i18next";
+import common_da from "./translations/da/common.json";
+import common_en from "./translations/en/common.json";
 
-const App = () => {
-  return (
-  <Provider store={store}>
-  <BrowserRouter>
-  <div>
-      <Route path="/" exact component={ContainerComponent}/>
-      <Route path="/MyStory" exact component={MyStory}/> 
-  </div>
-  </BrowserRouter>
-  </Provider>
-  )
-};
+i18n
+  .use(initReactI18next) // passes i18n down to react-i18next
+  .init({
+    resources: {
+      en: {
+        common: common_en
+      },
+      da: {
+        common: common_da
+      },
+    },
+    lng: "en",
+    fallbackLng: "en",
+
+    interpolation: {
+      escapeValue: false
+    }
+  });
 
 ReactDOM.render(
-    <App/>,
+    <I18nextProvider i18n={i18next}>
+        <App/>
+    </I18nextProvider>,
     document.getElementById('root')
 );
-  
-  
