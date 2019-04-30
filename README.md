@@ -1,6 +1,6 @@
 
 This website is published at:
-http://kacey-okafor.cf
+http://kaceyokafor.com
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
